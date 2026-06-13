@@ -1,4 +1,4 @@
 all:
-	nasm -f elf32 ex2.asm -o ex2.o
-	ld -m elf_i386 ex2.o -o ex2
+	nasm -f elf32 ex1.asm -o ex1.o
+	ld -m elf_i386 ex1.o -o ex1
 	
